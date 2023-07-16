@@ -8,21 +8,21 @@ let infoCourses = {
       level: 'basic'
     },
     {
-      id: 1,
+      id: 2,
       title: 'Learn Python',
       language: 'python',
       views: 15000,
       level: 'basic'
     },
     {
-      id: 2,
-      title: 'Intermedie Python',
+      id: 3,
+      title: 'Intermediate  Python',
       language: 'python',
       views: 13553,
-      level: 'Intermedie'
+      level: 'intermediate '
     },
     {
-      id: 3,
+      id: 4,
       title: 'Learn JavaScript',
       language: 'javascript',
       views: 10223,
@@ -42,7 +42,7 @@ let infoCourses = {
       title: 'Learn Algebra',
       topic: 'algebra',
       views: 15722,
-      level: 'intermedie'
+      level: 'intermediate '
     },
   ]
 }
