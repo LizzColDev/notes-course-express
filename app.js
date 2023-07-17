@@ -14,11 +14,11 @@ app.use('/api/courses/maths', routerMaths);
 // Routing
 
 app.get('/', (req, res) =>{
-  res.send('Mi primer servidor. Curso Express');
+  res.json('Mi primer servidor. Curso Express');
 });
 
 app.get('/api/courses', (req, res) =>{
-  res.send(JSON.stringify(infoCourses));
+  res.json(infoCourses);
 });
 
 const PORT = process.env.PORT || 3000;
