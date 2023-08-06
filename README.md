@@ -350,3 +350,29 @@ Aquí tienes ejemplos básicos de cómo utilizar los métodos **`POST`**, **`PUT
 
 Estos son ejemplos básicos para manejar las solicitudes **`POST`**, **`PUT`**, **`PATCH`** y **`DELETE`** en Express.js. Ten en cuenta que en cada ejemplo se asume que se está utilizando el middleware **`body-parser`** o alguna otra solución para analizar el cuerpo de la solicitud (**`req.body`**). Además, estos ejemplos son simplificados y no incluyen la lógica real para crear, actualizar o eliminar datos en una base de datos.
 </details>
+
+<details>
+<summary><b>TDD stands for Test-Driven Development</b></summary>
+Test-Driven Development (TDD) is a software development approach where tests are written before the actual code implementation. The TDD cycle typically follows these steps:
+
+1. **Write a Test**: First, you write a test that defines the expected behavior of a specific piece of code. This test will initially fail because the code has not been implemented yet.
+
+2. **Write the Code**: Next, you write the minimal code necessary to make the test pass. The focus is on making the test pass, not on writing the full implementation.
+
+3. **Run the Test**: Run all the tests, including the newly written one, to ensure that it passes without breaking existing functionality.
+
+4. **Refactor**: If necessary, refactor the code to improve its design and maintainability while keeping all the tests passing.
+
+5. **Repeat**: Repeat the process by writing another test for a new piece of functionality or refining an existing test. Continue this cycle iteratively until all the desired features are implemented.
+
+## Best Practices of TDD
+
+1. **Start with Small Tests**: Begin with simple and isolated test cases that focus on specific functionality.
+2. **Run Tests Frequently**: Run the test suite regularly to ensure that all tests are passing at each step.
+3. **Red-Green-Refactor**: Follow the red-green-refactor pattern to incrementally build and improve the codebase.
+4. **Keep Tests Independent**: Tests should not rely on the state or results of other tests to ensure independence.
+5. **Test Edge Cases**: Include test cases that cover boundary conditions and corner cases to ensure robustness.
+6. **Test Failure Scenarios**: Test how the code behaves in error or failure scenarios.
+7. **Maintain Good Test Coverage**: Aim for high test coverage to minimize the chance of regressions.
+
+</details>
